@@ -1,0 +1,2 @@
+matplotlib==3.8.3
+PyQt6==6.7.0
