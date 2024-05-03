@@ -1,9 +1,14 @@
 import sys
+import os
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QGroupBox, QHBoxLayout, QLineEdit, QPushButton, QMessageBox
 from PyQt6.QtCore import QTimer
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QRadioButton, QVBoxLayout, QWidget, QGroupBox, QHBoxLayout
+
+# Set white  mode configuration
+# To disable dark mode, use 'darkmode=0' instead of 'darkmode=1'
+os.environ['QT_QPA_PLATFORM'] = 'windows:darkmode=0'
 
 class MainWindow(QMainWindow):
     def __init__(self):
