@@ -1,7 +1,7 @@
 ## README for Motor Control Project
 
 ### Overview
-###NB: please view the dev branch for the latest updates
+### NB: please view the dev branch for the latest updates
 
 This project focuses on developing a comprehensive motor control system using a Raspberry Pi and ROS (Robot Operating System). The system integrates PID control strategies for accurate motor speed and position regulation, vital for applications in robotics and automation. By leveraging ROS's capabilities, this system is designed to be modular, scalable, and easily integrated into larger robotics projects.
 
