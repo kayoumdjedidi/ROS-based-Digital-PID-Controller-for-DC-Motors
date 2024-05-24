@@ -1,3 +1,4 @@
 matplotlib==3.8.3
+numpy==1.24.3
 PyQt6==6.7.0
 PyQt6_sip==13.6.0
